@@ -1,0 +1,18 @@
+default['ceilometer_dir']      = "/opt/ceilometer"
+default['ceilometer_conf_dir'] = "/etc/ceilometer"
+default['ceilometer_conf']     = "/etc/ceilometer/ceilometer.conf"
+default['ceilometer_log_dir']  = "/var/log/ceilometer"
+default['install_record']      = "install_time_record_log"
+default['user']                = "root"
+default['group']               = "root"
+default['nova_conf']           = "/etc/nova/nova.conf"
+default['swift_conf_dir']      = "/etc/swift"
+default['swift_conf']          = "/etc/swift/proxy-server.conf"
+default['use_swift']           = "yes"
+default['env']                 = "/home/test/conf"
+default['os_username']         = "admin"
+default['os_tenant_name']      = "admin"
+default['os_password']         = "13245"
+default['os_auth_url']         = "http://127.0.0.1:5000/v2.0"
+
+
