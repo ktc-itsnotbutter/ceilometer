@@ -45,7 +45,3 @@ end
 
 Chef::Log.info "ceilometer install complete"
 
-
-
-=======
->>>>>>> 51567841cfa2d86ea7c55f6cc7333e4071bbfc05
