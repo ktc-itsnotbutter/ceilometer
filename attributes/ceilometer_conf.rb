@@ -1,3 +1,9 @@
+# ceilometer setting
+default['ceilometer']['ceilometer_dir']       = "/opt/ceilometer"
+default['ceilometer']['ceilometer_conf_dir']  = "/etc/ceilometer"
+default['ceilometer']['ceilometer_conf']      ="/etc/ceilometer/ceilometer.conf"
+default['ceilometer']['ceilometer_log_dir']   = "/var/log/ceilometer"
+
 # user group to be used for install
 default['ceilometer']['user']                 = "root"
 default['ceilometer']['group']                = "root"
