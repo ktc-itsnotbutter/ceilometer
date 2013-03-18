@@ -183,6 +183,7 @@ template "#{node['ceilometer']['nova_conf']}" do
   owner  "root"
   mode   00644
   variables(
+    :rabbit_ip => rabbit_info["host"],
     :sql_connection => nova_db_uri
   )
 end

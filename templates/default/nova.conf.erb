@@ -3,7 +3,7 @@ firewall_driver = nova.virt.libvirt.firewall.IptablesFirewallDriver
 compute_driver = libvirt.LibvirtDriver
 glance_api_servers = localhost:9292
 rabbit_password = password
-rabbit_host = localhost
+rabbit_host = <%= @rabbit_ip %>
 rpc_backend = nova.openstack.common.rpc.impl_kombu
 ec2_dmz_host = 
 vncserver_proxyclient_address = 127.0.0.1
